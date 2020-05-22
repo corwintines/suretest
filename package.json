@@ -1,0 +1,25 @@
+{
+  "name": "suretest",
+  "version": "1.0.0",
+  "description": "Testing framework",
+  "main": "./lib/suretest",
+  "bin": {
+    "suretest": "bin/suretest"
+  },
+  "scripts": {
+    "test": "suretest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSSmitty/suretest.git"
+  },
+  "author": "Corwin Smith",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CSSmitty/suretest/issues"
+  },
+  "homepage": "https://github.com/CSSmitty/suretest#readme",
+  "dependencies": {
+    "chalk": "4.0.0"
+  }
+}
