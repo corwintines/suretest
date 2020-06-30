@@ -1,0 +1,30 @@
+{
+  "name": "suretest-cli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "CSSmitty <cssmittys@gmail.com>",
+  "homepage": "https://github.com/CSSmitty/suretest#readme",
+  "license": "ISC",
+  "main": "src/suretest-cli.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSSmitty/suretest.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/CSSmitty/suretest/issues"
+  },
+  "dependencies": {
+    "chalk": "4.0.0"
+  }
+}
