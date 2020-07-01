@@ -1,5 +1,5 @@
-import chalk = require('chalk')
+import { suretestCore } from '@suretest/suretest-core'
 
 export async function run() {
-    console.warn(chalk.blue('Hello world!'))
+    suretestCore()
 }
