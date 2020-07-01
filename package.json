@@ -9,6 +9,7 @@
     "suretest": "suretest"
   },
   "scripts": {
+    "build": "lerna run tsc && lerna bootstrap",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "prepare": "lerna run prepare",
