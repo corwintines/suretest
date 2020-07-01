@@ -2,4 +2,4 @@
 
 process.title = 'suretest';
 
-require('./packages/suretest-cli/build/suretest-cli').run();
+require('./packages/suretest-cli/build/src/suretest-cli').run();
