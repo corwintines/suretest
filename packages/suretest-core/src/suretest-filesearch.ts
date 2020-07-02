@@ -3,7 +3,7 @@ import path = require('path')
 
 export const fileSearch = (filepath=process.env.PWD ?? '' as string) => {
   let filepaths: string[] = []
-  let files
+  let files: string[] | undefined
 
   try {
     files = fs.readdirSync(filepath);
