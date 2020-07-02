@@ -13,7 +13,7 @@ export const fileSearch = (filepath=process.env.PWD ?? '' as string) => {
 
   files?.forEach((file) => {
     const joinedPath = path.join(filepath, file)
-    if (file.split('.')[1] === 'test') {
+    if (/(\w*\.test.\w*)/.test(file)) {
       filepaths.push(joinedPath)
     } else if (fs.statSync(joinedPath).isDirectory() && validFolderToEnter(file)) {
       const rec = fileSearch(joinedPath)
