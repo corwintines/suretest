@@ -1,6 +1,8 @@
-import chalk = require('chalk')
+import SuretestTree from '@suretest/suretest-tree'
+
 import { fileSearch } from './suretest-filesearch'
 
 export const suretestCore = () => {
-    console.warn(chalk.blue(fileSearch()))
+    const tree = new SuretestTree(fileSearch())
+    console.warn(tree)
 }
