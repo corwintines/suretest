@@ -1,11 +1,11 @@
 {
-  "name": "@suretest/suretest-cli",
+  "name": "@suretest/suretest-tree",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "CSSmitty <cssmittys@gmail.com>",
   "homepage": "https://github.com/CSSmitty/suretest#readme",
   "license": "ISC",
-  "main": "build/src/suretest-cli.js",
+  "main": "build/src/suretest-tree.js",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -23,9 +23,5 @@
   },
   "bugs": {
     "url": "https://github.com/CSSmitty/suretest/issues"
-  },
-  "dependencies": {
-    "@suretest/suretest-core": "1.0.0",
-    "chalk": "4.0.0"
   }
 }

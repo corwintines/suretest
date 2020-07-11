@@ -25,6 +25,7 @@
     "url": "https://github.com/CSSmitty/suretest/issues"
   },
   "dependencies": {
+    "@suretest/suretest-tree": "1.0.0",
     "chalk": "4.0.0"
   }
 }
